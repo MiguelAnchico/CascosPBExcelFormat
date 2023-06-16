@@ -2,7 +2,7 @@
 const reader = require('xlsx');
 
 // Cargamos el excel donde guardaremos la información y el excel donde leeremos nuestra información
-const filtros = reader.readFile('./resources/filtrado.xlsx');
+const filtros = reader.readFile('./Resources/filtrado.xlsx');
 const productos = reader.readFile('./Resources/ProductosTotal.xlsx');
 
 const AlexDB = reader.readFile('./Resources/AlexDB.xlsx');
